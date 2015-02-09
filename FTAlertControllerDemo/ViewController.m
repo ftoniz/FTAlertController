@@ -52,11 +52,7 @@
     }];
     UITextField *textField = [[UITextField alloc] init];
     [textField setPlaceholder:@"TextField"];
-    [textField setText:@"Example Text"];
-    [textField setReturnKeyType:UIReturnKeyGo];
-    [alert addTextFile:textField];
     [alert show];
-    [alert showInViewController:self];
 }
 
 - (void)actionSheet{
