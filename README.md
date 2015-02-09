@@ -1,5 +1,5 @@
 # FTAlertController
-FTAlertController is mix of UIAlertView for IOS 7 and UIAlertController for IOS 8 in classic UI
+FTAlertController is mix of UIAlertView , UIActionSheet for IOS 7 and UIAlertController for IOS 8 in classic UI
 
 ## Example
 ![alt tag](http://s8.postimg.org/s5rl5bsdh/i_OS_Simulator_Screen_Shot_Feb_9_2015_1_47_50_P.png)
