@@ -32,3 +32,9 @@ typedef enum {  FTAlertControllerStyleAlert = 0 ,
 - (void)showInViewController:(UIViewController *)viewController;
 - (FTAlertController *)copy;
 @end
+
+@interface UIViewController (FTAlertController)
+
+- (void) showFTAlertWithTitle:(NSString *)title detail:(NSString *)detail  cancelText:(NSString *)cancelText style:(FTAlertControllerStyle)style;
+
+@end

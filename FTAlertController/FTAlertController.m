@@ -266,3 +266,13 @@
     [self removeFromParentViewController];
 }
 @end
+
+@implementation UIViewController (FTAlertController)
+
+- (void)showFTAlertWithTitle:(NSString *)title detail:(NSString *)detail cancelText:(NSString *)cancelText style:(FTAlertControllerStyle)style{
+    FTAlertController *alert = [FTAlertController alertWithTitle:title Detail:detail Style:style InViewController:self];
+    [alert setCancelButtonText:cancelText];
+    [alert show];
+}
+
+@end
